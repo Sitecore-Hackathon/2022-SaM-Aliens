@@ -17,15 +17,15 @@ Languages:
       Value: 20211020T051238Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "18ce2185-aaca-44f4-b25d-0bb0e082572a"
+      Value: "e9d104ac-ac99-47ea-b1c8-fd36cc866d3b"
     - ID: "aff6fd57-80bd-4b53-adb9-164b922d5763"
       Hint: Link
       Value: |
-        <link text="Sitecore Chat/Slack" linktype="external" url="https://sitecore.chat/" anchor="" title="Sitecore Chat/Slack" target="" />
+        <link text="Sitecore Chat/Slack" linktype="external" url="https://sitecore.chat/" anchor="" title="Sitecore Slack" target="" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20211020T051444Z
+      Value: 20220305T223952Z

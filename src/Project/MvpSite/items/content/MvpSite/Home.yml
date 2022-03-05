@@ -35,7 +35,7 @@ SharedFields:
           <rls>
             <ruleset>
               <rule
-                name="Specify name..."
+                name="Is Anonymous "
                 uid="{33B83864-1B81-4A8E-9273-76A2B37705B0}">
                 <conditions>
                   <condition
@@ -145,7 +145,7 @@ Languages:
       Value: 20200513T045800Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6a3d45a7-b951-4131-84b9-68e0b76901bd"
+      Value: "9236bc99-0180-4ec8-afc2-819840cdb118"
     - ID: "b1ece12f-b2c9-44e6-92a3-c5dfd6514b59"
       Hint: Menu Title
       Value: Home
@@ -155,4 +155,4 @@ Languages:
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220305T212525Z
+      Value: 20220305T223531Z
