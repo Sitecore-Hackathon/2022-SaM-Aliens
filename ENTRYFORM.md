@@ -27,7 +27,6 @@ Using Sitecore possibilities we added draft **licence.xml** file into media file
 ## Installation instructions
 
 1. Follow main MVP website instuctions [here](https://github.com/Sitecore/MVP-Site/blob/main/README.md)
-2. profit
 
 ## Usage instructions
 
