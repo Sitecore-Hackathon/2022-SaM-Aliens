@@ -27,17 +27,6 @@ TODO: ADD LINK HERE!!!!!
 ⟹ [Replace this Video link](#video-link)
 
 
-
-## Pre-requisites and Dependencies
-
-⟹ Does your module rely on other Sitecore modules or frameworks?
-
-- List any dependencies
-- Or other modules that must be installed
-- Or services that must be enabled/configured
-
-_Remove this subsection if your entry does not have any prerequisites other than Sitecore_
-
 ## Installation instructions
 
 1. Follow main MVP website instuctions [here](https://github.com/Sitecore/MVP-Site/blob/main/README.md)
@@ -46,8 +35,23 @@ _Remove this subsection if your entry does not have any prerequisites other than
 ## Usage instructions
 
 1. Sign In on MVP website. 
+
+![Sign In](docs/images/anonymus-home.png?raw=true "Sign In")
+
 2. Click On the Request Licence link. 
+
+![Request Licence](docs/images/signed-in.png?raw=true "Request Licence")
+
+3. Select location for downloading
+
+![Request Licence](docs/images/location-picker.png?raw=true "Request Licence")
+
+4. Use the MVP License! :) 
+
+![Ready-for-use Licence](docs/images/license.png?raw=true "Ready-for-use Licence")
+
 
 ## Comments
 We will be happy to collabarate Sitecore Dev team to finish this module. 
+
 At least, we can Licence generating for specific person or Licence configuring. For example, MVP user can configure Licence file only for Sitecore 10.2 related because the full Licence file pretty long.   
