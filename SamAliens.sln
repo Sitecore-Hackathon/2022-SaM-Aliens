@@ -29,17 +29,33 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Docker", "_Docker", "{7A26
 		docker\docker-compose.yml = docker\docker-compose.yml
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RunJob", "RunJob", "{3A9424A9-2E43-45AA-96DB-F10DF2DE2EF7}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\RunJob\Foundation.RunJob.module.json = src\Feature\RunJob\Foundation.RunJob.module.json
+		src\Foundation\RunJob\Foundation.RunJob.module.json = src\Foundation\RunJob\Foundation.RunJob.module.json
+		src\Feature\RunJob\README.md = src\Feature\RunJob\README.md
+		src\Foundation\RunJob\README.md = src\Foundation\RunJob\README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foundation.RunJob.Platform", "src\Feature\RunJob\platform\Foundation.RunJob.Platform.csproj", "{BBB45F20-3F64-47B1-A33F-87221B5A8534}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBB45F20-3F64-47B1-A33F-87221B5A8534}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB45F20-3F64-47B1-A33F-87221B5A8534}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB45F20-3F64-47B1-A33F-87221B5A8534}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB45F20-3F64-47B1-A33F-87221B5A8534}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{3A9424A9-2E43-45AA-96DB-F10DF2DE2EF7} = {17DD5718-6E13-4F2C-9738-B410396D4552}
+		{BBB45F20-3F64-47B1-A33F-87221B5A8534} = {3A9424A9-2E43-45AA-96DB-F10DF2DE2EF7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {311DA37D-528B-43B2-A99B-E7253F841D46}

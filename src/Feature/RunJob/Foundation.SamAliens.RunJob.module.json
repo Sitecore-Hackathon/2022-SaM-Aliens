@@ -1,0 +1,12 @@
+{
+    "namespace": "Foundation.SamAliens.RunJob",
+    "references": ["Foundation.*"],
+    "items": {
+        "includes": [
+            {
+                "name": "templates",
+                "path": "/sitecore/templates/Feature/RunJob"
+            }
+        ]
+    }
+}

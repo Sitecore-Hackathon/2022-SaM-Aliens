@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Foundation.RunJob.Platform</RootNamespace>
+    <AssemblyName>Foundation.RunJob.Platform</AssemblyName>
+    <SitecoreRoleType>platform</SitecoreRoleType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SupportsSystemWeb" />
+  </ItemGroup>
+</Project>

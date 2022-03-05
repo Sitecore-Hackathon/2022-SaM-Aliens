@@ -13,6 +13,12 @@
         <!-- shared-->
         <PackageReference Update="Microsoft.Net.Compilers.ToolSet" Version="3.10.0" />
 
+        <PackageReference Include="Microsoft.AspNet.WebApi" Version="5.2.6" />
+        <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.6" />
+        <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.6" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+
+
         <!-- platform -->
         <PackageReference Update="Sitecore.Assemblies.Platform" Version="$(PlatformVersion)" />
         <PackageReference Update="Sitecore.Assemblies.SitecoreHeadlessServicesServer" Version="$(SitecoreAspNetVersion)" />
@@ -22,6 +28,7 @@
         <PackageReference Update="Sitecore.LayoutService.Mvc" Version="8.0.*" />
         <PackageReference Update="Sitecore.Services.GraphQL" Version="6.0.*" />
         <PackageReference Update="Sitecore.Services.GraphQL.ContentSchema" Version="6.0.*" />
+        
 
         <!-- rendering-->
         <PackageReference Update="Sitecore.LayoutService.Client" Version="$(SitecoreAspNetVersion)" />
@@ -35,12 +42,10 @@
         <PackageReference Update="Microsoft.Extensions.Http" Version="3.1.1" />
         <PackageReference Update="Microsoft.Identity.Web" Version="1.11.0" />
         <PackageReference Update="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
-         <PackageReference Include="Microsoft.AspNet.WebApi" Version ="5.2.7">
-         <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version ="5.2.7">
-         <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version ="5.2.7">
-         <PackageReference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform" Version ="2.0.1">
-         <PackageReference Include="Sitecore.ContentSearch" Version ="10.2.0">
-         <PackageReference Include="Sitecore.Kernel" Version ="10.2.0">
-         <PackageReference Include="System.Web.Http.Common" Version ="4.0.20126.16343">
+
+        <!-- <PackageReference Update="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
+        <PackageReference Update="Microsoft.AspNet.WebApi.Core" Version="5.2.7" />
+        <PackageReference Update="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+        <PackageReference Update="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" /> -->
   </ItemGroup>
 </Project>
