@@ -49,6 +49,6 @@ Using Sitecore possibilities we added draft **licence.xml** file into media file
 
 
 ## Comments
-We will be happy to collabarate Sitecore Dev team to finish this module. We want to use an external API to upload actual licences/keys for MVP users.  
+We will be happy to collabarate with the Sitecore Dev team to finish this module. We would like to use an external API to release this feature.  
 
 At least, we can Licence generating for specific person or Licence configuring. For example, MVP user can configure Licence file only for Sitecore 10.2 related because the full Licence file pretty long.   
