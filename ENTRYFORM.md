@@ -15,7 +15,7 @@ SaM Aliens
 Best addition to the Sitecore MVP site
 
 ## Description
-The main module purpose - is providing quick access to MVP licence for autorized MVP user. 
+The main purpose of this module is to provide a quick access to the Sitecore MVP license. 
 
 Using Sitecore possibilities we added draft **licence.xml** file into media files and cofigured component to download it if user fits conditions. 
 
