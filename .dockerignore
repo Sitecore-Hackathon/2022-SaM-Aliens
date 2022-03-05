@@ -15,3 +15,7 @@ packages
 docker-compose*
 **/*.md
 *.ps1
+
+# static asset genetators
+**/package.json
+**/gulpfile.js

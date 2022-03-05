@@ -20,7 +20,6 @@
 
     <ItemGroup>
         <PackageReference Include="Sitecore.Assemblies.Platform" />
-        <PackageReference Include="Sitecore.Kernel" />
         <PackageReference Include="Sitecore.Assemblies.SitecoreHeadlessServicesServer" />
     </ItemGroup>
 

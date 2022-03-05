@@ -12,6 +12,12 @@
     <CallTarget Targets="Publish" Condition="'$(PublishOnBuild)'=='True'" />
   </Target>
 
+  <ItemGroup>
+    <!-- TODO: Remove this itemgroup and reference Sitecore.Assemblies.SitecoreHeadlessServicesServer nuget when layoutservice is upgraded -->
+    <SitecoreAssemblies Include="Sitecore.LayoutService.dll" />
+    <SitecoreAssemblies Include="Sitecore.LayoutService.Mvc.dll" />
+  </ItemGroup>
+
   <Target Name="RemoveAssembliesFromPublish" AfterTargets="ResolveReferences">
     <ItemGroup>
       <_IgnoredFiles Include="@(SitecoreAssemblies)" Condition="'@(SitecoreAssemblies)' != ''" />
