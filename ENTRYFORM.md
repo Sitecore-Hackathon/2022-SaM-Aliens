@@ -21,10 +21,7 @@ Using Sitecore possibilities we added draft **licence.xml** file into media file
 
 ## Video link
 
-TODO: ADD LINK HERE!!!!!
-⟹ Provide a video highlighing your Hackathon module submission and provide a link to the video. You can use any video hosting, file share or even upload the video to this repository. _Just remember to update the link below_
-
-⟹ [Replace this Video link](#video-link)
+[MVP Feature Demonstration Video](https://www.screencast.com/t/mfvuAFj7S)
 
 
 ## Installation instructions
