@@ -15,8 +15,16 @@ namespace Mvp.Feature.Navigation.Services
       var dataSourceItem = contextItem?.Database?.GetItem(rendering.DataSource);
       if (dataSourceItem == null) throw new NullReferenceException();
 
-      return GetValidTopLinkItems(dataSourceItem).Select(c => (LinkField)c.Fields[Templates.HasLink.Fields.Link])
-        .Select(linkField => new Link { Title = linkField.Title, Url = linkField.Url }).ToList();
+      return GetValidTopLinkItems(dataSourceItem).Select(c =>
+      {
+        var linkField = (LinkField) c.Fields[Templates.HasLink.Fields.Link];
+        var isMediaLink = linkField.IsMediaLink;
+        return new Link
+        {
+          Title = isMediaLink ? c.DisplayName : linkField.Title,
+          Url = isMediaLink ? linkField.GetFriendlyUrl() : linkField.Url
+        };
+      }).ToList();
     }
 
     private IEnumerable<Item> GetValidTopLinkItems(Item dataSourceItem)
