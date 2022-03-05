@@ -52,6 +52,6 @@ TODO: ADD LINK HERE!!!!!
 
 
 ## Comments
-We will be happy to collabarate Sitecore Dev team to finish this module. 
+We will be happy to collabarate Sitecore Dev team to finish this module. We want to use an external API to upload actual licences/keys for MVP users.  
 
 At least, we can Licence generating for specific person or Licence configuring. For example, MVP user can configure Licence file only for Sitecore 10.2 related because the full Licence file pretty long.   
